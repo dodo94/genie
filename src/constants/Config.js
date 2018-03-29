@@ -1,0 +1,1 @@
+export const API_URL = 'http://hoadq:8003/v1/api';

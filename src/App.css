@@ -1,0 +1,67 @@
+.sidebar .sidebar-shortcuts-large>.btn{
+  margin: 0 2px;
+}
+
+.mb-10 {
+  margin-bottom: 10px; 
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.sweet-loading {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa96;
+  z-index: 9999999;
+}
+
+.css-1o3m8w0 {
+  position: absolute;
+  top: 45%;
+  left: 50%
+}
+
+.main-content-inner{
+  animation: fadein 0.5s;
+  -moz-animation: fadein 0.5s; /* Firefox */
+  -webkit-animation: fadein 0.5s; /* Safari and Chrome */
+  -o-animation: fadein 0.5s; /* Opera */
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
